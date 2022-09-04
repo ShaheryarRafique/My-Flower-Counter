@@ -1,0 +1,64 @@
+body {
+    background-image: url("images/flowers.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Archivo', sans-serif;
+    color: #f5f3f4;
+    text-shadow: 0.8px 0.8px 5px #0b090a;
+    font-weight: bold;
+}
+
+.flower-main {
+    margin: 80px auto;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border-left: 2px solid beige;
+    border-right: 2px solid beige;
+    border-bottom: 2px solid beige;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    color: #0b090a;
+    background: #C69419;
+}
+
+#save-btn {
+    background: #393B2F;
+    color: whitesmoke;
+}
+
+#increment-btn:hover {
+    opacity: 0.9;
+}
+
+#save-btn:hover {
+    opacity: 0.9;
+}
+
+
